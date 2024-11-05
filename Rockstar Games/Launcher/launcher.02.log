@@ -1,0 +1,14 @@
+[2024-10-12 03:11:57.757] [DISPLAY] [Main ] [launcher] Opening log file.
+[2024-10-12 03:11:57.760] [WARNING] [Main ] [launcher] Unable to move log file, waiting and trying again...
+[2024-10-12 03:11:58.261] [WARNING] [Main ] [launcher] Unable to move log file, waiting and trying again...
+[2024-10-12 03:11:58.762] [WARNING] [Main ] [launcher] Couldn't move logfile C:\Users\carlo\OneDrive\Documentos\Rockstar Games\Launcher\launcher.log!
+[2024-10-12 03:11:58.762] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" 
+[2024-10-12 03:11:58.762] [DISPLAY] [Main ] [main] P4 Version: 
+[2024-10-12 03:11:58.762] [DISPLAY] [Main ] [main] RGL Branch: release_11
+[2024-10-12 03:11:58.762] [DISPLAY] [Main ] [main] Version: 1.0.96.2164
+[2024-10-12 03:11:58.762] [DISPLAY] [Main ] [main] Parameters:
+[2024-10-12 03:11:58.762] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2024-10-12 03:11:58.767] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files\Rockstar Games\Launcher
+[2024-10-12 03:11:58.767] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2024-10-12 03:11:58.785] [DISPLAY] [Main ] [minmode] Starting up normally.
+[2024-10-12 03:11:58.804] [DISPLAY] [Main ] [gamepipemtl] Forwarding commands: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" 

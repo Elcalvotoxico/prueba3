@@ -1,0 +1,106 @@
+[2024-10-12 03:09:10.764] [DISPLAY] [Main ] [launcher] Opening log file.
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -steamAppId=271590 -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V" @args.txt -upgrade
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main] P4 Version: 
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main] RGL Branch: release_11
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main] Version: 1.0.96.2164
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main] Parameters:
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main]     -steamAppId=271590
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main]     -steamLocation
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main]     C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main]     @args.txt
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main]     -upgrade
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files\Rockstar Games\Launcher
+[2024-10-12 03:09:10.767] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2024-10-12 03:09:10.778] [DISPLAY] [Main ] [external] Creating Steam min mode launch
+[2024-10-12 03:09:10.779] [DISPLAY] [Main ] [external] Steam App Id: 271590
+[2024-10-12 03:09:10.779] [DISPLAY] [Main ] [external] Steam Location: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V
+[2024-10-12 03:09:10.780] [DISPLAY] [Main ] [metadatamanager] Read external Steam metadata: gta5
+[2024-10-12 03:09:10.780] [DISPLAY] [Main ] [external] App: gta5
+[2024-10-12 03:09:10.786] [ ERROR ] [Main ] [shell] Could not do OpenProcess on parent process.
+[2024-10-12 03:09:10.789] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2024-10-12 03:09:10.799] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2024-10-12 03:09:10.799] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2024-10-12 03:09:10.805] [DISPLAY] [Main ] [svc] Service version: 1.0.96.2164 (1.0.96.2164)
+[2024-10-12 03:09:10.900] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: es-ES
+[2024-10-12 03:09:10.900] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2024-10-12 03:09:10.901] [DISPLAY] [Main ] [fileutils] Version: 2.3.7.1 | 1.0.96.2164 | FFP
+[2024-10-12 03:09:10.918] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2024-10-12 03:09:11.070] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-10-12 03:09:11.076] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.22631) >= 10
+[2024-10-12 03:09:11.196] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2024-10-12 03:09:11.230] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2024-10-12 03:09:11.375] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2024-10-12 03:09:11.375] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2024-10-12 03:09:11.375] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2024-10-12 03:09:11.375] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2024-10-12 03:09:11.375] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
+[2024-10-12 03:09:11.417] [DISPLAY] [Workr] [preqmanager] The Social Club version available matches that currently installed (both: 2.3.7.1)
+[2024-10-12 03:09:11.417] [DISPLAY] [Workr] [titleupdater] No prerequisites to install.
+[2024-10-12 03:09:11.417] [DISPLAY] [Workr] [launcher] Checking minimum SDK requirement
+[2024-10-12 03:09:11.434] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2024-10-12 03:09:16.936] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2024-10-12 03:09:16.937] [DISPLAY] [Admin] [external] Setting up steam title: gta5
+[2024-10-12 03:09:16.937] [DISPLAY] [Admin] [external] Successfully setup title
+[2024-10-12 03:09:16.953] [DISPLAY] [Main ] [external] Client is ready to attempt a launch.
+[2024-10-12 03:09:20.916] [DISPLAY] [Main ] [launcher] Presence Event - Signed In
+[2024-10-12 03:09:20.916] [DISPLAY] [Main ] [launcher] User 'elcalvatoxica' is now signed in
+[2024-10-12 03:09:20.941] [DISPLAY] [Main ] [launcher] Presence Event :: Went Online
+[2024-10-12 03:09:20.941] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2024-10-12 03:09:20.941] [DISPLAY] [Main ] [launcher] Time to start up: 10750 ms
+[2024-10-12 03:09:20.941] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2024-10-12 03:09:20.944] [DISPLAY] [Main ] [ui_mainwindow] Using DPI 120,120
+[2024-10-12 03:09:20.944] [DISPLAY] [Main ] [ui_mainwindow] Using UI Scale: 1.25
+[2024-10-12 03:09:20.944] [DISPLAY] [Main ] [ui_mainwindow] Using saved geometry: 160,135 (1600 x 750)
+[2024-10-12 03:09:20.970] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-10-12 03:09:20.979] [DISPLAY] [Main ] [scuicallbacks] Enabling Downloading
+[2024-10-12 03:09:21.136] [DISPLAY] [Main ] [launcher] Friend Event - Friends are Available
+[2024-10-12 03:09:21.162] [DISPLAY] [Setti] [localisation] Language updated to: 4
+[2024-10-12 03:09:21.457] [DISPLAY] [Main ] [scuicallbacks] Setting updated
+[2024-10-12 03:09:21.457] [DISPLAY] [Main ] [scuicallbacks] Launch requested
+[2024-10-12 03:09:21.457] [DISPLAY] [Main ] [scuicallbacks] Launch requested by user: gta5, 
+[2024-10-12 03:09:21.457] [DISPLAY] [Main ] [external] Frontend is ready to launch the title
+[2024-10-12 03:09:21.457] [DISPLAY] [Main ] [external] Attempting external title launch...
+[2024-10-12 03:09:21.512] [DISPLAY] [Setti] [localisation] Language updated to: 4
+[2024-10-12 03:09:21.901] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2024-10-12 03:09:21.901] [DISPLAY] [Admin] [external] Attempting Steam launch. User is 'G.O.W'
+[2024-10-12 03:09:23.616] [DISPLAY] [12072] [gamelaunch] RGL is up to date (current: 1.0.96.2164, minimum: 1.0.95.2141)
+[2024-10-12 03:09:23.618] [DISPLAY] [12072] [gamelaunch] Grand Theft Auto V is up to date (current: 1.0.3337.0, minimum: 1.0.1868.0)
+[2024-10-12 03:09:25.055] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta5'
+[2024-10-12 03:09:25.072] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta5'
+[2024-10-12 03:09:28.867] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5' = disabled
+[2024-10-12 03:09:28.867] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta5'
+[2024-10-12 03:09:28.868] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5' = disabled
+[2024-10-12 03:09:29.430] [DISPLAY] [net4 ] [audio] Valid Audio Device: true
+[2024-10-12 03:09:31.068] [DISPLAY] [12072] [gamelaunch] Launching game...
+[2024-10-12 03:09:31.068] [DISPLAY] [12072] [gamelaunch]  Path: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\GTA5_BE.exe
+[2024-10-12 03:09:31.068] [DISPLAY] [12072] [gamelaunch]  Command Line: "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\GTA5_BE.exe" -skipPatcherCheck -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V" @args.txt -upgrade -enableCrashpad -useSteam -steamAppId=271590 -scCommerceProvider=4 @commandline.txt -rglLanguage=es-ES
+[2024-10-12 03:09:31.068] [DISPLAY] [12072] [gamelaunch]  Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V
+[2024-10-12 03:09:43.033] [WARNING] [12072] [gamelaunch] No game or BattlEye window exists for game tracking.
+[2024-10-12 03:09:43.039] [DISPLAY] [12072] [gamelaunch] Game exited with code 0x1 (1)
+[2024-10-12 03:09:43.044] [DISPLAY] [12072] [crashdetection] Game left no exit file.
+[2024-10-12 03:09:43.044] [ ERROR ] [12072] [crashdetection] Exit code 0x1 indicates an unexpected game termination
+[2024-10-12 03:09:43.044] [ ERROR ] [12072] [gamelaunch] Game did not create a window and exited with code 0x1, which likely indicates a fatal game exit during startup
+[2024-10-12 03:09:45.566] [DISPLAY] [Main ] [gamelaunch] Game restart requested for 'gta5'
+[2024-10-12 03:09:46.320] [DISPLAY] [12072] [gamelaunch] RGL is up to date (current: 1.0.96.2164, minimum: 1.0.95.2141)
+[2024-10-12 03:09:46.323] [DISPLAY] [12072] [gamelaunch] Grand Theft Auto V is up to date (current: 1.0.3337.0, minimum: 1.0.1868.0)
+[2024-10-12 03:09:48.112] [DISPLAY] [net2 ] [audio] Valid Audio Device: true
+[2024-10-12 03:09:49.775] [DISPLAY] [12072] [gamelaunch] Launching game...
+[2024-10-12 03:09:49.775] [DISPLAY] [12072] [gamelaunch]  Path: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\GTA5_BE.exe
+[2024-10-12 03:09:49.775] [DISPLAY] [12072] [gamelaunch]  Command Line: "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\GTA5_BE.exe" -skipPatcherCheck -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V" @args.txt -upgrade -enableCrashpad -useSteam -steamAppId=271590 -scCommerceProvider=4 @commandline.txt -rglLanguage=es-ES
+[2024-10-12 03:09:49.775] [DISPLAY] [12072] [gamelaunch]  Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V
+[2024-10-12 03:12:01.447] [DISPLAY] [Main ] [scuicallbacks] Terminate game requested
+[2024-10-12 03:12:01.447] [DISPLAY] [12072] [gamelaunch] Terminating game.
+[2024-10-12 03:12:01.448] [DISPLAY] [12072] [crashdetection] Game left no exit file.
+[2024-10-12 03:12:01.464] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta5'
+[2024-10-12 03:12:01.481] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta5'
+[2024-10-12 03:12:01.483] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5' = disabled
+[2024-10-12 03:12:01.483] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta5'
+[2024-10-12 03:12:02.261] [DISPLAY] [12072] [launcher] Shutdown requested! Forced: false
+[2024-10-12 03:12:02.263] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2024-10-12 03:12:02.511] [WARNING] [Main ] [worker] Not adding job due to thread exiting
+[2024-10-12 03:12:02.528] [WARNING] [Main ] [worker] Not adding job due to thread exiting
+[2024-10-12 03:12:02.590] [DISPLAY] [Setti] [localisation] Language updated to: 4
+[2024-10-12 03:12:03.462] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2024-10-12 03:12:03.548] [DISPLAY] [Main ] [svc] Stopping the background service.

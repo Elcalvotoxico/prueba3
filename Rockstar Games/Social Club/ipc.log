@@ -1,0 +1,10 @@
+[0929/152847:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0929/152847:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0929/155023:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0929/155023:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0929/155351:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0929/155351:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[1012/030915:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[1012/030915:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[1012/031207:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[1012/031207:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.

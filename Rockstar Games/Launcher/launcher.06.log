@@ -1,0 +1,64 @@
+[2024-09-29 15:28:34.068] [DISPLAY] [Main ] [launcher] Opening log file.
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -steamAppId=1174180 -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2" @args.txt -upgrade
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main] P4 Version: 
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main] RGL Branch: release_10
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main] Version: 1.0.95.2152
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main] Parameters:
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main]     -steamAppId=1174180
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main]     -steamLocation
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main]     C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main]     @args.txt
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main]     -upgrade
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files\Rockstar Games\Launcher
+[2024-09-29 15:28:34.069] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2024-09-29 15:28:34.084] [DISPLAY] [Main ] [external] Creating Steam min mode launch
+[2024-09-29 15:28:34.086] [DISPLAY] [Main ] [external] Steam App Id: 1174180
+[2024-09-29 15:28:34.086] [DISPLAY] [Main ] [external] Steam Location: C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2
+[2024-09-29 15:28:34.087] [DISPLAY] [Main ] [metadatamanager] Read external Steam metadata: rdr2
+[2024-09-29 15:28:34.087] [DISPLAY] [Main ] [external] App: rdr2
+[2024-09-29 15:28:34.095] [ ERROR ] [Main ] [shell] Could not do OpenProcess on parent process.
+[2024-09-29 15:28:34.096] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2024-09-29 15:28:34.106] [DISPLAY] [Main ] [titlemanager] Installed titles:
+[2024-09-29 15:28:34.106] [DISPLAY] [Main ] [titlemanager]  Title                             Progress               Version              Location                                                    
+[2024-09-29 15:28:34.106] [DISPLAY] [Main ] [preqmanager] Could not get preq list from disk; no preqs known to be installed.
+[2024-09-29 15:28:34.111] [DISPLAY] [Main ] [svc] Service version: 1.0.95.2152 (1.0.95.2152)
+[2024-09-29 15:28:34.195] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: es-ES
+[2024-09-29 15:28:34.195] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2024-09-29 15:28:34.196] [DISPLAY] [Main ] [fileutils] Version: 2.3.6.5 | 1.0.95.2152 | FFP
+[2024-09-29 15:28:34.213] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2024-09-29 15:28:34.551] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2024-09-29 15:28:34.770] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-09-29 15:28:34.776] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.22631) >= 10
+[2024-09-29 15:28:34.781] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2024-09-29 15:28:35.006] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2024-09-29 15:28:35.006] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2024-09-29 15:28:35.006] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2024-09-29 15:28:35.006] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2024-09-29 15:28:35.584] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2024-09-29 15:28:35.584] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2024-09-29 15:28:35.584] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
+[2024-09-29 15:28:35.624] [DISPLAY] [Workr] [preqmanager] The Social Club version available matches that currently installed (both: 2.3.6.5)
+[2024-09-29 15:28:35.624] [DISPLAY] [Workr] [titleupdater] Installing prerequisites for title launcher
+[2024-09-29 15:28:35.624] [DISPLAY] [Workr] [preqmanager] Installer version: 2.3.6.5
+[2024-09-29 15:28:35.624] [DISPLAY] [Workr] [preqmanager] About to launch process: C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe (with commandline: /silent /forceinstall)
+[2024-09-29 15:28:43.367] [DISPLAY] [Workr] [launcher] Checking minimum SDK requirement
+[2024-09-29 15:28:43.400] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2024-09-29 15:28:48.584] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2024-09-29 15:28:48.585] [DISPLAY] [Admin] [external] Setting up steam title: rdr2
+[2024-09-29 15:28:48.585] [DISPLAY] [Admin] [external] Successfully setup title
+[2024-09-29 15:28:48.601] [DISPLAY] [Main ] [external] Client is ready to attempt a launch.
+[2024-09-29 15:28:50.455] [DISPLAY] [Main ] [launcher] Time to start up: 16614 ms
+[2024-09-29 15:28:50.457] [DISPLAY] [Main ] [ui_mainwindow] Using DPI 120,120
+[2024-09-29 15:28:50.457] [DISPLAY] [Main ] [ui_mainwindow] Using UI Scale: 1.25
+[2024-09-29 15:28:50.457] [DISPLAY] [Main ] [ui_mainwindow] Centering on monitor: 160,135 (1600 x 750)
+[2024-09-29 15:28:50.533] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-09-29 15:33:00.313] [DISPLAY] [Main ] [scuicallbacks] Refresh of title list requested
+[2024-09-29 15:33:06.674] [DISPLAY] [Main ] [scuicallbacks] Refresh of title list requested
+[2024-09-29 15:50:06.520] [ ERROR ] [Main ] [ui_mainwindow] Main window lost. Shutting down...(closed: true, error: false)
+[2024-09-29 15:50:06.520] [DISPLAY] [Main ] [launcher] Shutdown requested! Forced: false
+[2024-09-29 15:50:06.521] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2024-09-29 15:50:06.553] [DISPLAY] [Setti] [localisation] Language updated to: 4
+[2024-09-29 15:50:06.555] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2024-09-29 15:50:06.579] [DISPLAY] [Main ] [svc] Stopping the background service.

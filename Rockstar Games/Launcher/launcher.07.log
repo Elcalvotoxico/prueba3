@@ -1,0 +1,74 @@
+[2024-09-29 15:28:24.614] [DISPLAY] [Main ] [launcher] Opening log file.
+[2024-09-29 15:28:24.615] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -steamAppId=1174180 -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2" @args.txt
+[2024-09-29 15:28:24.615] [DISPLAY] [Main ] [main] P4 Version: 
+[2024-09-29 15:28:24.615] [DISPLAY] [Main ] [main] RGL Branch: release_10
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main] Version: 1.0.95.2152
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main] Parameters:
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main]     -steamAppId=1174180
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main]     -steamLocation
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main]     C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main]     @args.txt
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2
+[2024-09-29 15:28:24.616] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2024-09-29 15:28:24.631] [DISPLAY] [Main ] [external] Creating Steam min mode launch
+[2024-09-29 15:28:24.705] [DISPLAY] [Main ] [external] Steam App Id: 1174180
+[2024-09-29 15:28:24.705] [DISPLAY] [Main ] [external] Steam Location: C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2
+[2024-09-29 15:28:24.707] [DISPLAY] [Main ] [metadatamanager] Read external Steam metadata: rdr2
+[2024-09-29 15:28:24.707] [DISPLAY] [Main ] [external] App: rdr2
+[2024-09-29 15:28:24.717] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2024-09-29 15:28:24.726] [DISPLAY] [Main ] [titlemanager] Could not get title list cache from disk; no titles known to be installed.
+[2024-09-29 15:28:24.727] [DISPLAY] [Main ] [preqmanager] Could not get preq list from disk; no preqs known to be installed.
+[2024-09-29 15:28:24.729] [WARNING] [Main ] [titlemanager] RGL install location not set, using exe location: C:\Program Files\Rockstar Games\Launcher
+[2024-09-29 15:28:24.731] [WARNING] [Main ] [settingsmanager] Couldn't read settings file C:\Users\carlo\AppData\Local\Rockstar Games\Launcher\settings_user.dat; using defaults.
+[2024-09-29 15:28:24.731] [WARNING] [Main ] [settingsmanager] Couldn't read settings file C:\ProgramData\Rockstar Games\Launcher\settings_machine.dat; using defaults.
+[2024-09-29 15:28:24.731] [DISPLAY] [Main ] [settingsmanager] No user language setting, defaulting to 'es-ES'
+[2024-09-29 15:28:24.731] [DISPLAY] [Main ] [svc] Service version: 1.0.95.2152 (1.0.95.2152)
+[2024-09-29 15:28:24.757] [DISPLAY] [Main ] [main] Current environment (prod) different to previous launch (); updating environment setting
+[2024-09-29 15:28:24.875] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: es-ES
+[2024-09-29 15:28:24.875] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2024-09-29 15:28:24.876] [DISPLAY] [Main ] [fileutils] Version: 2.3.6.5 | 1.0.95.2152 | FFP
+[2024-09-29 15:28:25.270] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2024-09-29 15:28:25.300] [DISPLAY] [net1 ] [title] Current version for title [pv] Launcher : 1.0.95.2152
+[2024-09-29 15:28:25.610] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-09-29 15:28:25.623] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.22631) >= 10
+[2024-09-29 15:28:25.628] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2024-09-29 15:28:25.790] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2024-09-29 15:28:25.790] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2024-09-29 15:28:25.790] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2024-09-29 15:28:25.790] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2024-09-29 15:28:26.382] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2024-09-29 15:28:26.382] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2024-09-29 15:28:26.382] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2024-09-29 15:28:26.388] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="68dSk64MldD1T+7brdb65PLKMqOwX6yWAP0O95au1B00m40qVxo9uFOfdP5/mstgjaPv+mnCL70njQdSDFp1V77zoh4AGxNTTQyEMwMml/Q=",signature="9kz1ehCZHk1sot6tFNAjr4OqjoO2OD3ClK38edsJCiU="'
+[2024-09-29 15:28:27.102] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="68dSk64MldD1T+7brdb65PLKMqOwX6yWAP0O95au1B00m40qVxo9uFOfdP5/mstgjaPv+mnCL70njQdSDFp1V77zoh4AGxNTTQyEMwMml/Q=",signature="9kz1ehCZHk1sot6tFNAjr4OqjoO2OD3ClK38edsJCiU="' (status: 0/200)
+[2024-09-29 15:28:27.104] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: 0.0 KB / 207.77 MB
+[2024-09-29 15:28:27.104] [DISPLAY] [Workr] [selfupdate] Updating launcher...
+[2024-09-29 15:28:28.567] [DISPLAY] [Admin] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti'
+[2024-09-29 15:28:29.245] [DISPLAY] [Admin] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti' (status: 0/200)
+[2024-09-29 15:28:32.198] [DISPLAY] [Workr] [downloadprogress] Dl: D|85795208|3|2|0|0
+[2024-09-29 15:28:32.209] [DISPLAY] [Workr] [titleupdater] Launcher needs to restart to be made up-to-date.
+[2024-09-29 15:28:32.209] [DISPLAY] [Workr] [titleupdater] Update of Rockstar Games Launcher succeeded; needs restart to complete.
+[2024-09-29 15:28:32.277] [DISPLAY] [Workr] [selfupdate] Applying downloaded self-update...
+[2024-09-29 15:28:32.277] [DISPLAY] [Workr] [fileutils] Unable to get file version info size for C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2024-09-29 15:28:32.277] [DISPLAY] [Workr] [title] Swap file for Rockstar Games Launcher not found during self update in C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2024-09-29 15:28:32.278] [DISPLAY] [Workr] [fileutils] Unable to get file version info size for C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2024-09-29 15:28:32.284] [DISPLAY] [Workr] [title] Installed launcher version in registry updated: 1.0.95.2152 -> 1.0.95.2152_S10_R15
+[2024-09-29 15:28:32.284] [DISPLAY] [Workr] [title] Updated version [mv] for title Rockstar Games Launcher : 1.0.95.2152_S10_R15
+[2024-09-29 15:28:32.304] [DISPLAY] [Workr] [title] Current version for title [pv] Rockstar Games Launcher : 1.0.95.2152
+[2024-09-29 15:28:32.310] [DISPLAY] [Workr] [title] Installed launcher version in registry updated: 1.0.95.2152_S10_R15 -> 1.0.95.2152
+[2024-09-29 15:28:32.311] [DISPLAY] [Workr] [fileutils] Unable to get file version info size for C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2024-09-29 15:28:32.311] [DISPLAY] [Workr] [title] Swap file for Rockstar Games Launcher not found during self update in C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2024-09-29 15:28:32.311] [DISPLAY] [Workr] [fileutils] Unable to get file version info size for C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2024-09-29 15:28:32.315] [DISPLAY] [Workr] [title] Installed launcher version in registry updated: 1.0.95.2152 -> 1.0.95.2152_S10_R15
+[2024-09-29 15:28:32.315] [DISPLAY] [Workr] [title] Updated version [mv] for title Rockstar Games Launcher : 1.0.95.2152_S10_R15
+[2024-09-29 15:28:32.321] [DISPLAY] [Workr] [selfupdate] Self-update applied, need to restart.
+[2024-09-29 15:28:32.321] [DISPLAY] [Workr] [launcher] Restarting to apply self-update...
+[2024-09-29 15:28:32.321] [DISPLAY] [Workr] [lifecycle] Setting to restart after exit.
+[2024-09-29 15:28:32.321] [DISPLAY] [Workr] [launcher] Shutdown requested! Forced: false
+[2024-09-29 15:28:32.321] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2024-09-29 15:28:32.342] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2024-09-29 15:28:32.362] [DISPLAY] [Setti] [localisation] Language updated to: 4
+[2024-09-29 15:28:32.384] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2024-09-29 15:28:32.397] [DISPLAY] [Main ] [svc] Stopping the background service.
