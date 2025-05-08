@@ -84,9 +84,6 @@ ImmersePersonalization@0;57752;48403 = false
 // Microphone device used for voice chat
 VoiceInputDevice@0;15420;7764 = Default Communication Device // one of Default Communication Device, Default System Device
 
-// Apply effect on voice in chat
-VoiceChatEffect@0;16488;7764 = mw_default // one of mw_default, mw, mw_classic
-
 
 //
 // Controller Advanced
@@ -227,7 +224,7 @@ MouseHorizontalSensibility@0;12088;6692 = 8.000000 // 0.010000 to 100.000000
 MouseVerticalSensibility@1;43387;21371 = 1.000000 // 0.010000 to 4.000000
 
 // Restricts the Input Device used for Aiming. False for Mouse, True for Gamepad Stick
-EnableGamepad@0;57752;48403 = false
+EnableGamepad@0;57752;48403 = true
 
 
 //
@@ -246,3 +243,6 @@ HTTPStreamUsageLimit@0;57752;48403 = false
 // Adjust timing for the ADS multipliers above to take effect when aiming down sight
 ADSTimingSensitivityTouch@0;62161;11445 = interpolated // one of immediately, interpolated, delayed
 
+
+// Apply effect on voice in chat
+VoiceChatEffect@0;16488;7764 = mw_default // one of mw_default, mw, mw_classic

@@ -1,60 +1,142 @@
-[2024-09-29 15:50:22.103] [DISPLAY] [Main ] [launcher] Opening log file.
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -steamAppId=1174180 -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2" @args.txt
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main] P4 Version: 
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main] RGL Branch: release_10
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main] Version: 1.0.95.2152
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main] Parameters:
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main]     -skipPatcherCheck
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main]     -steamAppId=1174180
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main]     -steamLocation
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main]     C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main]     @args.txt
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2
-[2024-09-29 15:50:22.106] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
-[2024-09-29 15:50:22.123] [DISPLAY] [Main ] [external] Creating Steam min mode launch
-[2024-09-29 15:50:22.125] [DISPLAY] [Main ] [external] Steam App Id: 1174180
-[2024-09-29 15:50:22.125] [DISPLAY] [Main ] [external] Steam Location: C:\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2
-[2024-09-29 15:50:22.126] [DISPLAY] [Main ] [metadatamanager] Read external Steam metadata: rdr2
-[2024-09-29 15:50:22.126] [DISPLAY] [Main ] [external] App: rdr2
-[2024-09-29 15:50:22.137] [DISPLAY] [Main ] [localisation] Language updated to: 4
-[2024-09-29 15:50:22.149] [DISPLAY] [Main ] [titlemanager] Installed titles:
-[2024-09-29 15:50:22.149] [DISPLAY] [Main ] [titlemanager]  Title                             Progress               Version              Location                                                    
-[2024-09-29 15:50:22.154] [DISPLAY] [Main ] [svc] Service version: 1.0.95.2152 (1.0.95.2152)
-[2024-09-29 15:50:22.249] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: es-ES
-[2024-09-29 15:50:22.249] [DISPLAY] [Main ] [localisation] Language updated to: 4
-[2024-09-29 15:50:22.250] [DISPLAY] [Main ] [fileutils] Version: 2.3.6.5 | 1.0.95.2152 | FFP
-[2024-09-29 15:50:22.266] [DISPLAY] [Workr] [selfupdate] Up-to-date.
-[2024-09-29 15:50:22.605] [DISPLAY] [bgsvc] [svc] Received response from service.
-[2024-09-29 15:50:22.829] [DISPLAY] [Main ] [systemtray] System tray: enabled
-[2024-09-29 15:50:22.843] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.22631) >= 10
-[2024-09-29 15:50:22.852] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
-[2024-09-29 15:50:23.031] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
-[2024-09-29 15:50:23.031] [DISPLAY] [Workr] [titlemanager] Downloading title list...
-[2024-09-29 15:50:23.031] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
-[2024-09-29 15:50:23.031] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
-[2024-09-29 15:50:23.589] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
-[2024-09-29 15:50:23.589] [DISPLAY] [Workr] [titlemanager] Title list updated.
-[2024-09-29 15:50:23.589] [DISPLAY] [Workr] [launcher] Checking for self-update...
-[2024-09-29 15:50:23.594] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: No update
-[2024-09-29 15:50:23.599] [DISPLAY] [Workr] [launcher] No self-update, continuing.
-[2024-09-29 15:50:23.599] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
-[2024-09-29 15:50:23.601] [DISPLAY] [Workr] [preqmanager] The Social Club version available matches that currently installed (both: 2.3.6.5)
-[2024-09-29 15:50:23.601] [DISPLAY] [Workr] [titleupdater] No prerequisites to install.
-[2024-09-29 15:50:23.601] [DISPLAY] [Workr] [launcher] Checking minimum SDK requirement
-[2024-09-29 15:50:23.602] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
-[2024-09-29 15:50:24.484] [DISPLAY] [Main ] [launcher] Social Club UI has started.
-[2024-09-29 15:50:24.485] [DISPLAY] [Admin] [external] Setting up steam title: rdr2
-[2024-09-29 15:50:24.485] [DISPLAY] [Admin] [external] Successfully setup title
-[2024-09-29 15:50:24.501] [DISPLAY] [Main ] [external] Client is ready to attempt a launch.
-[2024-09-29 15:50:26.233] [DISPLAY] [Main ] [launcher] Time to start up: 4197 ms
-[2024-09-29 15:50:26.235] [DISPLAY] [Main ] [ui_mainwindow] Using DPI 120,120
-[2024-09-29 15:50:26.235] [DISPLAY] [Main ] [ui_mainwindow] Using UI Scale: 1.25
-[2024-09-29 15:50:26.235] [DISPLAY] [Main ] [ui_mainwindow] Using saved geometry: 160,135 (1600 x 750)
-[2024-09-29 15:50:26.256] [DISPLAY] [Main ] [systemtray] System tray: enabled
-[2024-09-29 15:52:16.577] [DISPLAY] [Main ] [launcher] Shutdown requested! Forced: false
-[2024-09-29 15:52:16.578] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
-[2024-09-29 15:52:16.615] [DISPLAY] [Setti] [localisation] Language updated to: 4
-[2024-09-29 15:52:16.703] [DISPLAY] [Main ] [svc] Stopping the background service.
-[2024-09-29 15:52:16.752] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
-[2024-09-29 15:52:16.758] [DISPLAY] [Main ] [svc] Stopping the background service.
+[2025-03-09 13:25:02.045] [DISPLAY] [Main ] [dx12] Retrieving D3D12 graphics info
+[2025-03-09 13:25:02.321] [DISPLAY] [Main ] [launcher] Opening log file.
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -steamAppId=3240220 -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced" @args.txt
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main] P4 Version: 
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main] RGL Branch: release_feature_charm
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main] Version: 1.0.101.2370
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main] Parameters:
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main]     -steamAppId=3240220
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main]     -steamLocation
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main]     C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main]     @args.txt
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced
+[2025-03-09 13:25:02.327] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2025-03-09 13:25:02.328] [DISPLAY] [Main ] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2025-03-09 13:25:02.328] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2025-03-09 13:25:02.353] [DISPLAY] [Main ] [external] Creating Steam min mode launch
+[2025-03-09 13:25:02.358] [DISPLAY] [Main ] [external] Steam App Id: 3240220
+[2025-03-09 13:25:02.358] [DISPLAY] [Main ] [external] Steam Location: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced
+[2025-03-09 13:25:02.359] [DISPLAY] [Main ] [metadatamanager] Read external Steam metadata: gta5_gen9
+[2025-03-09 13:25:02.359] [DISPLAY] [Main ] [external] App: gta5_gen9
+[2025-03-09 13:25:02.372] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\carlo\OneDrive\Documentos\Rockstar Games\GTAV Enhanced\User Music
+[2025-03-09 13:25:02.372] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\carlo\OneDrive\Documentos\Rockstar Games\GTA V\User Music
+[2025-03-09 13:25:02.375] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2025-03-09 13:25:02.375] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2025-03-09 13:25:02.392] [DISPLAY] [Main ] [svc] Service version: 1.0.101.2370 (1.0.101.2370)
+[2025-03-09 13:25:02.516] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: es-ES
+[2025-03-09 13:25:02.516] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2025-03-09 13:25:02.517] [DISPLAY] [Main ] [fileutils] Version: 2.4.0.52 | 1.0.101.2370 | FFP
+[2025-03-09 13:25:02.550] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2025-03-09 13:25:02.656] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2025-03-09 13:25:02.670] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.26100) >= 10
+[2025-03-09 13:25:03.017] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2025-03-09 13:25:03.064] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2025-03-09 13:25:03.252] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2025-03-09 13:25:03.252] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2025-03-09 13:25:03.252] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2025-03-09 13:25:03.252] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2025-03-09 13:25:03.848] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2025-03-09 13:25:03.848] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2025-03-09 13:25:03.848] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2025-03-09 13:25:03.853] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: No update
+[2025-03-09 13:25:03.858] [DISPLAY] [Workr] [launcher] No self-update, continuing.
+[2025-03-09 13:25:03.858] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
+[2025-03-09 13:25:03.890] [DISPLAY] [Workr] [preqmanager] The Social Club version available matches that currently installed (both: 2.4.0.52)
+[2025-03-09 13:25:03.890] [DISPLAY] [Workr] [titleupdater] No prerequisites to install.
+[2025-03-09 13:25:03.890] [DISPLAY] [Workr] [launcher] Checking minimum SDK requirement
+[2025-03-09 13:25:03.905] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2025-03-09 13:25:04.167] [DISPLAY] [Workr] [dx12] Retrieving D3D12 graphics info
+[2025-03-09 13:25:05.092] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2025-03-09 13:25:05.093] [DISPLAY] [Admin] [external] Setting up steam title: gta5_gen9
+[2025-03-09 13:25:05.093] [DISPLAY] [Admin] [external] Successfully setup title
+[2025-03-09 13:25:05.108] [DISPLAY] [Main ] [external] Client is ready to attempt a launch.
+[2025-03-09 13:25:05.108] [DISPLAY] [Main ] [external] Frontend is ready to launch the title
+[2025-03-09 13:25:05.434] [DISPLAY] [Main ] [launcher] Time to start up: 3458 ms
+[2025-03-09 13:25:05.439] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2025-03-09 13:25:05.462] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetContext: Invalid -> Auth
+[2025-03-09 13:25:05.462] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Invalid -> WaitForBrowser
+[2025-03-09 13:25:05.498] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2025-03-09 13:25:06.711] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2025-03-09 13:25:07.244] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Active -> WaitForBrowser
+[2025-03-09 13:25:07.244] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2025-03-09 13:25:07.244] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2025-03-09 13:25:10.574] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetContext: Auth -> MainWindow
+[2025-03-09 13:25:10.574] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Active -> WaitForBrowser
+[2025-03-09 13:25:10.585] [DISPLAY] [Main ] [ui_mainwindow] Using DPI 120,120
+[2025-03-09 13:25:10.585] [DISPLAY] [Main ] [ui_mainwindow] Using UI Scale: 1.25
+[2025-03-09 13:25:10.587] [DISPLAY] [Main ] [ui_mainwindow] Using saved geometry: 160,135 (1600 x 750)
+[2025-03-09 13:25:10.605] [DISPLAY] [Main ] [launcher] Presence Event - Signed In
+[2025-03-09 13:25:10.605] [DISPLAY] [Main ] [launcher] User 'elcalvatoxica' is now signed in
+[2025-03-09 13:25:10.623] [DISPLAY] [Main ] [launcher] Presence Event :: Went Online
+[2025-03-09 13:25:10.623] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2025-03-09 13:25:10.623] [DISPLAY] [Main ] [scuicallbacks] Enabling Downloading
+[2025-03-09 13:25:10.625] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2025-03-09 13:25:10.625] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2025-03-09 13:25:10.626] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2025-03-09 13:25:10.907] [DISPLAY] [Main ] [launcher] Friend Event - Friends are Available
+[2025-03-09 13:25:11.097] [DISPLAY] [Main ] [scuicallbacks] Setting updated
+[2025-03-09 13:25:11.116] [DISPLAY] [Main ] [scuicallbacks] Launch requested by user: gta5_gen9, default
+[2025-03-09 13:25:11.116] [DISPLAY] [Main ] [external] Frontend is ready to launch the title
+[2025-03-09 13:25:11.116] [DISPLAY] [Main ] [external] Attempting external title launch...
+[2025-03-09 13:25:11.773] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2025-03-09 13:25:11.776] [DISPLAY] [Admin] [external] Attempting Steam launch. User is 'G.O.W'
+[2025-03-09 13:25:11.820] [DISPLAY] [Main ] [gamelaunch] Begin game launch: gta5_gen9
+[2025-03-09 13:25:11.820] [DISPLAY] [Main ] [gamelaunch] Flags: 11
+[2025-03-09 13:25:11.820] [DISPLAY] [Main ] [gamelaunch] Path: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced
+[2025-03-09 13:25:11.844] [DISPLAY] [19532] [gamelaunch] Launch Folder: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced
+[2025-03-09 13:25:11.844] [DISPLAY] [19532] [gamelaunch] Launch Path: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced\GTA5_Enhanced.exe
+[2025-03-09 13:25:11.860] [DISPLAY] [19532] [gamelaunch] RGL is up to date (current: 1.0.101.2370, minimum: 1.0.90.1944)
+[2025-03-09 13:25:11.863] [DISPLAY] [19532] [gamelaunch] Grand Theft Auto V Enhanced is up to date (current: 1.0.811.16, minimum: 1.0.0.0)
+[2025-03-09 13:25:14.019] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2025-03-09 13:25:14.019] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2025-03-09 13:25:14.877] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2025-03-09 13:25:16.121] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta5_gen9'
+[2025-03-09 13:25:16.138] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta5_gen9'
+[2025-03-09 13:25:16.143] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5_gen9' = enabled
+[2025-03-09 13:25:16.143] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for app 'gta5_gen9'
+[2025-03-09 13:25:16.765] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta5_gen9'
+[2025-03-09 13:25:16.765] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for app 'gta5_gen9'
+[2025-03-09 13:25:16.783] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for app 'gta5_gen9'
+[2025-03-09 13:25:16.783] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for app 'gta5_gen9'
+[2025-03-09 13:25:16.799] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for app 'gta5_gen9'
+[2025-03-09 13:25:16.799] [DISPLAY] [Main ] [cloudsaveop] Getting update files for app 'gta5_gen9'
+[2025-03-09 13:25:16.816] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for app 'gta5_gen9'
+[2025-03-09 13:25:16.816] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for app 'gta5_gen9'
+[2025-03-09 13:25:16.833] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for app 'gta5_gen9'
+[2025-03-09 13:25:16.833] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for app 'gta5_gen9'
+[2025-03-09 13:25:16.852] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta5_gen9'
+[2025-03-09 13:25:17.317] [DISPLAY] [net3 ] [audio] Valid Audio Device: true
+[2025-03-09 13:25:19.033] [DISPLAY] [19532] [gamelaunch] Launching game...
+[2025-03-09 13:25:19.033] [DISPLAY] [19532] [gamelaunch]  Path: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced\GTA5_Enhanced_BE.exe
+[2025-03-09 13:25:19.033] [DISPLAY] [19532] [gamelaunch]  Command Line: "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced\GTA5_Enhanced_BE.exe" -skipPatcherCheck -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced" @args.txt -enableCrashpad -useSteam -steamAppId=3240220 -scCommerceProvider=4 @commandline.txt -fromRGL -scDiscordClientId=1329870933695135785 -rglLanguage=es-ES
+[2025-03-09 13:25:19.033] [DISPLAY] [19532] [gamelaunch]  Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V Enhanced
+[2025-03-09 14:25:03.270] [DISPLAY] [Admin] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2025-03-09 14:25:03.586] [DISPLAY] [Admin] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2025-03-09 14:57:43.556] [DISPLAY] [19532] [gamelaunch] Game exited with code 0x0 (0)
+[2025-03-09 14:57:43.600] [DISPLAY] [19532] [crashdetection] Game left no exit file.
+[2025-03-09 14:57:43.600] [DISPLAY] [19532] [crashdetection] Exit code 0x0 indicates a clean game shutdown
+[2025-03-09 14:57:43.630] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta5_gen9'
+[2025-03-09 14:57:43.647] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta5_gen9'
+[2025-03-09 14:57:43.651] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5_gen9' = enabled
+[2025-03-09 14:57:43.651] [DISPLAY] [Main ] [cloudsaveop] Title access token was missing or expired, refreshing access for title 'gta5_gen9'
+[2025-03-09 14:57:43.653] [DISPLAY] [Main ] [cloudsaveop] Retrieving access token for title 'gta5_gen9' (11)
+[2025-03-09 14:57:44.405] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for app 'gta5_gen9'
+[2025-03-09 14:57:45.048] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta5_gen9'
+[2025-03-09 14:57:45.048] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for app 'gta5_gen9'
+[2025-03-09 14:57:45.065] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for app 'gta5_gen9'
+[2025-03-09 14:57:45.065] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for app 'gta5_gen9'
+[2025-03-09 14:57:45.083] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for app 'gta5_gen9'
+[2025-03-09 14:57:45.083] [DISPLAY] [Main ] [cloudsaveop] Getting update files for app 'gta5_gen9'
+[2025-03-09 14:57:45.100] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for app 'gta5_gen9'
+[2025-03-09 14:57:45.100] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for app 'gta5_gen9'
+[2025-03-09 14:57:45.117] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for app 'gta5_gen9'
+[2025-03-09 14:57:45.117] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for app 'gta5_gen9'
+[2025-03-09 14:57:45.135] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta5_gen9'
+[2025-03-09 14:57:45.878] [DISPLAY] [19532] [launcher] Shutdown requested! Forced: false
+[2025-03-09 14:57:45.884] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2025-03-09 14:57:45.996] [WARNING] [Main ] [worker] Not adding job (15) due to thread exiting
+[2025-03-09 14:57:46.014] [WARNING] [Main ] [worker] Not adding job (5) due to thread exiting
+[2025-03-09 14:57:46.979] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2025-03-09 14:57:47.043] [DISPLAY] [Main ] [svc] Stopping the background service.

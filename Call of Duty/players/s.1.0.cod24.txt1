@@ -137,6 +137,9 @@ WindowX@0;8975;53132 = -32768 // -32768 to 32767
 // Window Y position
 WindowY@0;8975;53132 = -32768 // -32768 to 32767
 
+// Enables AMD Antilag 2.
+AmdAntilag2@0;57752;48403 = false
+
 // Percentage of window resolution that the 3D scene renders at. value set by the user. can be smaller than the actual.
 ResolutionMultiplier@0;64786;30730 = 100 // 0 to 200
 
@@ -160,7 +163,7 @@ CapFps@0;57752;20945 = true
 CorpseLimit@0;18638;7094 = 28 // 0 to 28
 
 // Adds blur on out of focus areas when aiming down sights
-DepthOfField@0;57752;20945 = true
+DepthOfField@0;57752;20945 = false
 
 // DOF filter quality
 DepthOfFieldQuality@0;11629;11445 = High // one of Low, High
@@ -206,7 +209,7 @@ ShowBrass@0;57752;20945 = true
 // Graphics
 
 // User preferred anti-aliasing technique
-AATechniquePreferred@0;64219;48403 = SMAA // one of SMAA, DLSS, XeSS, FSR AA
+AATechniquePreferredMP@0;64219;48403 = SMAA // one of SMAA, DLSS, XeSS, FSR AA
 
 // Absolute target resolution
 AbsoluteTargetResolution@0;64285;26972 = none // one of 540P, 640P, 720P, 900P, 1080P, 1440P, native, none
@@ -224,10 +227,10 @@ GPUName@0;2059;35888 = NVIDIA GeForce RTX 4060 Laptop GPU
 ReflectionProbeRelighting@0;42543;9045 = 4 // 1 to 4
 
 // Screen Space Shadow quality level
-ScreenSpaceShadowQuality@0;42742;43096 = High // one of Off, Low, High
+ScreenSpaceShadowQuality@0;42742;43096 = Low // one of Off, Low, High
 
 // Screen-space reflection quality level
-SSRQuality@0;58437;11445 = Low // one of Off, Low, High
+SSRQuality@0;58437;11445 = Off // one of Off, Low, High
 
 // Static sunshadow moment clipmap resolution
 StaticSunshadowClipmapResolution@0;21851;46253 = 1024 // 0 to 2147483647
@@ -239,10 +242,10 @@ STLodSkip@0;52787;7764 = 0 // 0 to 5
 Tessellation@0;27349;11445 = 1_Near // one of 0_Off, 1_Near, 2_All
 
 // Texture filtering quality level
-TextureFilter@0;63279;8284 = aniso 16x // one of aniso 2x, aniso 4x, aniso 8x, aniso 16x
+TextureFilter@0;63279;8284 = aniso 8x // one of aniso 2x, aniso 4x, aniso 8x, aniso 16x
 
 // Texture quality level, high to low ( higher number means lower resolution )
-TextureQuality@0;61129;7764 = 0 // 0 to 3
+TextureQuality@0;61129;7764 = 2 // 0 to 3
 
 // Ui Quality
 UiQuality@0;42500;43096 = Auto // one of 1080P, 4K, Auto
@@ -256,6 +259,9 @@ AMDContrastAdaptiveSharpeningStrength@0;14317;40397 = 0.500000 // 0.000000 to 1.
 // Select AMD FidelityFX
 AMDFidelityFX@0;56444;48403 = Off // one of Off, CAS, FSR 1, FSR 3
 
+// Select AMD FidelityFX
+AMDFidelityFX@1;16223;48403 = Off // one of Off, CAS, FSR 1, FSR 3
+
 // AMD FidelityFX Super Resolution quality
 AMDSuperResolutionQuality@0;27441;8284 = Maximum Quality // one of Maximum Performance, Balanced, Maximum Quality, Ultra Quality
 
@@ -266,7 +272,7 @@ AMDSuperResolution2Quality@0;27441;8284 = Balanced // one of Ultra Performance, 
 FSRFrameInterpolation@0;57752;48403 = false
 
 // Enable deferred physics
-DeferredPhysics@0;6619;43096 = High Quality // one of Low Quality, Medium Quality, High Quality
+DeferredPhysics@0;6619;43096 = Medium Quality // one of Low Quality, Medium Quality, High Quality
 
 // Enables DirectX Raytracing
 DxrMode@0;47066;7764 = Off // one of Off, On
@@ -308,19 +314,19 @@ NVIDIAImageScalingQuality@0;27441;34191 = Native Resolution // one of Maximum Pe
 NVIDIAImageScalingSharpness@0;14317;19055 = 0.300000 // 0.000000 to 1.000000
 
 // Ambient lighting quality
-AmbientLightingQuality@0;20439;58629 = High // one of Off, Low, Medium, High, Ultra
+AmbientLightingQuality@0;20439;58629 = Medium // one of Off, Low, Medium, High, Ultra
 
 // Graphics Quality Preset Level
 GraphicsQuality@0;9088;43096 = Balanced // one of Minimum, Basic, Balanced, Ultra, Extreme
 
 // Models quality level
-ModelQuality@0;15002;43096 = High Quality // one of Low Quality, Medium Quality, High Quality
+ModelQuality@0;15002;43096 = Medium Quality // one of Low Quality, Medium Quality, High Quality
 
 // Particle quality level
-ParticleQuality@0;60198;58629 = high // one of very low, low, medium, high
+ParticleQuality@0;60198;58629 = medium // one of very low, low, medium, high
 
 // Shadow Quality Level
-ShadowQuality@0;3981;58629 = High // one of Very_Low, Low, Medium, High, Very_High
+ShadowQuality@0;3981;58629 = Low // one of Very_Low, Low, Medium, High, Very_High
 
 // Set HDR activation mode. Option only takes effect on HDR Display.
 HDR@0;3781;43096 = Automatic // one of Off, On, Automatic
@@ -335,7 +341,7 @@ ReflectionProbeHalfResolution@0;57752;48403 = false
 EnableVelocityBasedBlur@0;57752;20945 = true
 
 // Select the shader quality setting
-ShaderQuality@0;19450;7764 = Default // one of Default, Medium, Low
+ShaderQuality@0;19450;7764 = Medium // one of Default, Medium, Low
 
 // Catmull Clark subdivision level
 SubdivisionLevel@0;36080;58629 = 3 // 0 to 8
@@ -356,16 +362,16 @@ VRS@0;57752;20945 = true
 VirtualTexturingMemoryMode@0;992;58629 = Large // one of Extra Small, Small, Medium, Large, Extra Large
 
 // Volumetric quality
-VolumetricQuality@0;25292;43096 = QUALITY_HIGH // one of QUALITY_LOW, QUALITY_MEDIUM, QUALITY_HIGH
+VolumetricQuality@0;25292;43096 = QUALITY_MEDIUM // one of QUALITY_LOW, QUALITY_MEDIUM, QUALITY_HIGH
 
 // Select water caustics mode
-WaterCausticsMode@0;41499;11445 = Low Quality // one of Off, Low Quality, High Quality
+WaterCausticsMode@0;41499;11445 = Off // one of Off, Low Quality, High Quality
 
 // Enables persistent static geometry wetness from water waves.
-WaterWaveWetness@0;57752;20945 = true
+WaterWaveWetness@0;57752;20945 = false
 
 // Select weather grid volumes quality
-WeatherGridVolumesQuality@0;38459;58629 = High // one of Off, Low, Medium, High, Ultra
+WeatherGridVolumesQuality@0;38459;58629 = Medium // one of Off, Low, Medium, High, Ultra
 
 
 //
@@ -443,7 +449,7 @@ DisableHWChangeDetection@0;57752;48403 = false
 ESSDI@0;2059;35888 = 
 
 // DO NOT MODIFY. Last Detected GPU driver version
-GPUDriverVersion@0;2059;35888 = 56590 r565_87
+GPUDriverVersion@0;2059;35888 = 56636 r566_31
 
 // DO NOT MODIFY. Last used GPU
 LastUsedGPU@0;56178;35888 = NVIDIA GeForce RTX 4060 Laptop GPU
@@ -454,12 +460,21 @@ RecommendedSet@0;57752;48403 = true
 // Thread count for handling the job queue
 RendererWorkerCount@0;51989;59387 = 10 // -1 to 16
 
-// Set a target fraction of your PC's video memory to be used by the game
-VideoMemoryScale@0;59710;7707 = 0.800000 // 0.000000 to 2.000000
+// Set a target fraction of your PC's video memory to be used by the game. Affects Multiplayer gamemodes
+VideoMemoryScaleMP@0;59710;7707 = 0.800000 // 0.000000 to 2.000000
+
+// Last Drive type used for the game use to display a pop up
+LastSavedDriveType@0;3662;48403 = ssdorbetter // one of unknown, hdd, ssdorbetter, count
 
 // Version of the last display driver used to run the game
-DisplayDriverVersion@0;5555;35888 = 565.90
+DisplayDriverVersion@0;5555;35888 = 566.36
 
 // Recommended display driver version seen during last game startup
-DisplayDriverVersionRecommended@0;5555;35888 = 560.70
+DisplayDriverVersionRecommended@0;5555;35888 = 566.03
 
+
+// User preferred anti-aliasing technique
+AATechniquePreferred@0;64219;48403 = SMAA // one of SMAA, DLSS, XeSS, FSR AA
+
+// Set a target fraction of your PC's video memory to be used by the game
+VideoMemoryScale@0;59710;7707 = 0.800000 // 0.000000 to 2.000000

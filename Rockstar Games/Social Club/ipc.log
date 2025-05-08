@@ -8,3 +8,23 @@
 [1012/030915:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
 [1012/031207:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
 [1012/031207:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0304/014712:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0304/014712:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0304/022410:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0304/022410:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0304/202205:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0304/202205:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0305/020208:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0305/020208:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0305/153125:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0305/153125:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0306/130249:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0306/130249:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0309/132504:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0309/132504:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0320/185924:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0320/185924:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0506/084011:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0506/084011:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0506/084611:WARNING:ipc_channel_win.cc(153)] failed to create pipe: 2
+[0506/084611:WARNING:ipc_channel_win.cc(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
